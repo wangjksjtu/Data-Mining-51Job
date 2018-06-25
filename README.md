@@ -17,6 +17,10 @@ This repository is established to explore the data on [51Job website](https://ww
 ### Web Crawling
 ### Data Preprocessing
 ### Feature Engineering
+
+See directory ```/pics```.
+We analyzed feature coorelation and feature distribution respectively. We found two some main features which affect salary level: education level requirements, work experience requirements and area location.
+
 ### Salary Prediction
 
 | Model | Accuracy / % | time / s 
@@ -42,7 +46,7 @@ The accuracy & time plot of the above models:
 
 ## Team Members
 - [Jingkang Wang](https://github.com/wangjksjtu)
-- [Qingzhao Zhang]()
+- [Qingzhao Zhang](https://github.com/zqzqz)
 - [Zhengji Lai]()
 - [Lei Wang]()
 - [Zhongwei Chen]()

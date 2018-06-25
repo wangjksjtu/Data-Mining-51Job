@@ -21,6 +21,10 @@ You can find the preprocessed data in /data, where middleData.csv is the preproc
  while quantityData.csv quantifies all data and fits further data analysis.
 
 ### Feature Engineering
+
+See directory ```/pics```.
+ We analyzed feature coorelation and feature distribution respectively. We found two some main features which affect salary level: education level requirements, work experience requirements and area location.
+
 ### Salary Prediction
 
 | Model | Accuracy / % | time / s 
@@ -46,9 +50,9 @@ The accuracy & time plot of the above models:
 
 ## Team Members
 - [Jingkang Wang](https://github.com/wangjksjtu)
-- [Qingzhao Zhang]()
-- [Zhengji Lai](https://github.com/zhengjilai)
+- [Jilai Zheng](https://github.com/zhengjilai)
 - [Qingzhao Zhang](https://github.com/zqzqz)
 - [Lei Wang]()
-- [Zhongwei Chen]()
 - [Jinrui Sha]()
+- [Zhongwei Chen]()
+

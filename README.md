@@ -31,10 +31,6 @@ You can find the preprocessed data in /data, where middleData.csv is the preproc
 See directory ```/pics```.
  We analyzed feature coorelation and feature distribution respectively. We found two some main features which affect salary level: education level requirements, work experience requirements and area location.
 
-<figure class="half">
-    <img src="pics/images/area_salary.pdf" width="70%">
-</figure>
-
 
 ### Salary Prediction
 
@@ -53,20 +49,14 @@ See directory ```/pics```.
 | Model | Accuracy / % | time / s 
 | :---- |:------------:| :----: |
 | LP | 7.79% | 3.89 |
-| GNB | 7.32% | 0.23 |
+| GNB | 7.32% | __0.23__ |
 | KNN | 25.19% | 2.60 | 
 | RF | 28.44% | 1.80 | 
 | MLP | 20.91% | 20.05 | 
-| SVM | 29.31% | 1032.75 |
-| XGBoost｜ 27.53%  | 303.21 |
+| SVM | __29.31%__ | 1032.75 |
+| XGBoost | 27.53%  | 303.21 |
 
 The accuracy & time plot of the above models:
-
-<figure class="half">
-    <img src="./figures/acc.png" width="70%">
-</figure>
-
-
 
 ## Team Members
 - [Jingkang Wang](https://github.com/wangjksjtu)

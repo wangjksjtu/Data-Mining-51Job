@@ -7,6 +7,8 @@ This repository is established to explore the data on [51Job website](https://ww
 - Design two tasks for real scenarios (salary and job type prediction).
 - Apply various machine learning algorithms to our tasks.
 
+The documents of our work are available here: [[report]](https://github.com/wangjksjtu/Data-Mining-51Job/blob/master/docs/report.pdf), [[notebook]](https://github.com/wangjksjtu/Data-Mining-51Job/blob/master/feature_analysis/feature_analysis.ipynb).
+
 ## Requirements
 - [scrapy](https://scrapy.org/) (web crawling)
 - [numpy](http://www.numpy.org/) and [pandas](http://pandas.pydata.org/) (data preprocessing)

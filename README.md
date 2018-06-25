@@ -16,6 +16,10 @@ This repository is established to explore the data on [51Job website](https://ww
 ## QuickStart
 ### Web Crawling
 ### Data Preprocessing
+We use python libraries [pandas](http://pandas.pydata.org/) (using class dataframe) and re to preprocess the raw data. See /preprocess/preprocess.py for code.
+You can find the preprocessed data in /data, where middleData.csv is the preprocessed data suitable for drawing pics,
+ while quantityData.csv quantifies all data and fits further data analysis.
+
 ### Feature Engineering
 ### Salary Prediction
 
@@ -43,7 +47,7 @@ The accuracy & time plot of the above models:
 ## Team Members
 - [Jingkang Wang](https://github.com/wangjksjtu)
 - [Qingzhao Zhang]()
-- [Zhengji Lai]()
+- [Zhengji Lai](https://github.com/zhengjilai)
 - [Lei Wang]()
 - [Zhongwei Chen]()
 - [Jinrui Sha]()

@@ -15,6 +15,12 @@ This repository is established to explore the data on [51Job website](https://ww
 
 ## QuickStart
 ### Web Crawling
+We use [scrapy](https://scrapy.org/) to crawl raw data from [51Job website](https://www.51job.com/). See the directory ```/job51spider``` for codes. XPath is used to parse the html and extract data information.
+
+After entering the directory, input the command in cmd.exe to run the spider.
+```
+scrapy crawl 51job
+```
 ### Data Preprocessing
 We use python libraries [pandas](http://pandas.pydata.org/) (using class dataframe) and re to preprocess the raw data. See /preprocess/preprocess.py for code.
 You can find the preprocessed data in /data, where middleData.csv is the preprocessed data suitable for drawing pics,

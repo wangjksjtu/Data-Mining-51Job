@@ -1,5 +1,5 @@
 # Data-Mining-51Job
-This repository is established to explore the data on [51Job website](https://www.51job.com/), where a number of companies poster their wanted positions, and at the same time employees could share their own profiles to boost their career development. Overall, the work in this repo could be summarized in following aspects: 
+This repository is established to explore the data on [51Job website](https://www.51job.com/), where a number of companies post their wanted positions, and at the same time employees could share their own profiles to boost their career development. Overall, the work in this repo could be summarized in following aspects: 
 
 - Collect the job information using python crawler. 
 - Preprocess the data (clean, discretize, match, normalize, etc).
@@ -60,7 +60,7 @@ See directory ```/pics```.
 
 The accuracy & time plot of the above models:
 <figure class="half">
-    <img src="docs/figures/acc.png" width="75%">
+    <img src="docs/figures/acc.png" width="70%">
 </figure>
 
 

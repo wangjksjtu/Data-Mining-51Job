@@ -48,6 +48,7 @@ The accuracy & time plot of the above models:
 - [Jingkang Wang](https://github.com/wangjksjtu)
 - [Qingzhao Zhang]()
 - [Zhengji Lai](https://github.com/zhengjilai)
+- [Qingzhao Zhang](https://github.com/zqzqz)
 - [Lei Wang]()
 - [Zhongwei Chen]()
 - [Jinrui Sha]()

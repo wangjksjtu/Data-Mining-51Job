@@ -31,6 +31,14 @@ You can find the preprocessed data in /data, where middleData.csv is the preproc
 See directory ```/pics```.
  We analyzed feature coorelation and feature distribution respectively. We found two some main features which affect salary level: education level requirements, work experience requirements and area location.
 
+<div class="row">
+  <div class="column">
+    <img src="figures/map_num.png" width="45%">
+  </div>
+  <div class="column">
+    <img src="figures/map_salary.png" width="45%" height="459">
+  </div>
+</div>
 
 ### Salary Prediction
 
@@ -46,17 +54,18 @@ See directory ```/pics```.
 
 ### Job Area Prediction
 
-| Model | Accuracy / % | time / s 
-| :---- |:------------:| :----: |
-| LP | 7.79% | 3.89 |
-| GNB | 7.32% | __0.23__ |
-| KNN | 25.19% | 2.60 | 
+| Model | Accuracy / % | time / s | Model | Accuracy / % | time / s |  
+| :---- |:------------:| :----: | :---- |:------------:| :----: |
+| LP | 7.79% | 3.89 | MLP | 20.91% | 20.05 | 
+| GNB | 7.32% | __0.23__ | SVM | __29.31%__ | 1032.75 |
+| KNN | 25.19% | 2.60 | XGBoost | 27.53%  | 303.21 |
 | RF | 28.44% | 1.80 | 
-| MLP | 20.91% | 20.05 | 
-| SVM | __29.31%__ | 1032.75 |
-| XGBoost | 27.53%  | 303.21 |
+
 
 The accuracy & time plot of the above models:
+<figure class="half">
+    <img src="figures/acc.png" width="75%">
+</figure>
 
 ## Team Members
 - [Jingkang Wang](https://github.com/wangjksjtu)
@@ -65,4 +74,3 @@ The accuracy & time plot of the above models:
 - [Lei Wang](https://github.com/Dulou)
 - [Jinrui Sha](https://github.com/sjrGCkym)
 - [Zhongwei Chen]()
-

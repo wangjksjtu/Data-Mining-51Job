@@ -1,3 +1,4 @@
 /preprocess/data/
 /preprocess.zip
 /pics/.ipynb_checkpoints/
+*.pyc

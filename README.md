@@ -31,20 +31,34 @@ You can find the preprocessed data in /data, where middleData.csv is the preproc
 See directory ```/pics```.
  We analyzed feature coorelation and feature distribution respectively. We found two some main features which affect salary level: education level requirements, work experience requirements and area location.
 
+<figure class="half">
+    <img src="pics/images/area_salary.pdf" width="70%">
+</figure>
+
+
 ### Salary Prediction
 
-| Model | Accuracy / % | time / s 
-| :---- |:------------:| :----: |
-| SVR | 123 | 123 |
+| Model | R2 value | Mean Error ￥/year | time / s |  
+| :---- |:------------:| :----: | :----: |
+| Ada-Boost | 0.2350 | 37483.9 | 0.79 |
+| Grad-Boost | __0.3237__ | __34031.4__ | 3.13 |
+| SVR (RBF) | 0.0092 | 43301.9 | 350.08 |
+| Bayesian Ridge | 0.2667 | 34031.4 | 0.05 |
+| Elastic Net | 0.0426 | 44784.4 | __0.03__ |
+| MLPs | 0.2682 | 36207.3 | 19.29 |
+
 
 ### Job Area Prediction
 
 | Model | Accuracy / % | time / s 
 | :---- |:------------:| :----: |
-| SVM (RBF) | 123 | 123 |
-| KNN | 123 | 123 |
-| XGBoost | 123 | 123 | 
-
+| LP | 7.79% | 3.89 |
+| GNB | 7.32% | 0.23 |
+| KNN | 25.19% | 2.60 | 
+| RF | 28.44% | 1.80 | 
+| MLP | 20.91% | 20.05 | 
+| SVM | 29.31% | 1032.75 |
+| XGBoost｜ 27.53%  | 303.21 |
 
 The accuracy & time plot of the above models:
 
@@ -58,7 +72,7 @@ The accuracy & time plot of the above models:
 - [Jingkang Wang](https://github.com/wangjksjtu)
 - [Jilai Zheng](https://github.com/zhengjilai)
 - [Qingzhao Zhang](https://github.com/zqzqz)
-- [Lei Wang]()
-- [Jinrui Sha]()
+- [Lei Wang](https://github.com/Dulou)
+- [Jinrui Sha](https://github.com/sjrGCkym)
 - [Zhongwei Chen]()
 
